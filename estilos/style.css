@@ -38,9 +38,12 @@ section#login{
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgb(59, 59, 59);
     overflow: hidden;
+    transition: width .3s, heigth .3s;
+    transition-timing-function: ease;
 }
 
 #img{
+    display: block;
     background-image: url(../imagens/pexels-anastasia-shuraeva-5126964.jpg);
     background-size: cover;
     background-position: center;
@@ -49,6 +52,7 @@ section#login{
 }
 
 #form{
+    display: block;
     padding: 10px;
 }
 
