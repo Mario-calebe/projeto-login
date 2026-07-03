@@ -1,10 +1,11 @@
 @charset "UTF-8";
 
-:root {
-    --verde: #63d4d1;
-    --lilas: #5f2c82; 
-    
-}
+/* 
+    PALETA:
+    Azul: rgb(144, 215, 243)
+    Roxo escuro: #5f2c82
+    Roxo claro: #bf99d8
+*/
 
 *{
     padding: 0;
@@ -14,7 +15,7 @@
 }
 
 body,html{
-    background-color: var(--lilas);
+    background-color: #bf99d8;
     position: relative;
     height: 100vh;
     width: 100vw;
@@ -57,13 +58,13 @@ div.campo{
     padding: 2px;
     margin-top: 5px;
     position: relative;
-    background-color: var(--lilas);
+    background-color: #bf99d8;
     border-radius: 10px;
 }
 
 div.campo  input{
     width: 86%;
-    background-color: var(--verde);
+    background-color: rgb(144, 215, 243);
     padding: 10px;
     border-radius: 10px;
     border: none;
@@ -89,14 +90,14 @@ input[type="submit"]{
     margin-top: 5px;
     border-radius: 10px;
     border: none;
-    background-color: var(--verde);
+    background-color: #bf99d8;
     color: white;
     font-weight: bold;
 }
 
 input[type="submit"]:hover{
     cursor: pointer;
-    background-color: #4ca3a0;
+    background-color: #5f2c82;
 }
 
 a{
@@ -108,11 +109,15 @@ a{
     background-color: white;
     text-align: center;
     text-decoration: none;
-    color: #4ca3a0;
-    border: 1px solid var(--verde) ;
+    color: #5f2c82;
+    border: 1px solid #bf99d8 ;
 
 }
 
 a:hover{
-    background-color: var(--verde);
+    background-color: #bf99d8;
+}
+
+::placeholder{
+    color: #5f2c82;
 }

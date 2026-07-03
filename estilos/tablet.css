@@ -4,9 +4,9 @@
     
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px){
     body{
-        background-image: linear-gradient(360deg,#63d4d1,#5f2c82 );
+        background-image: linear-gradient(360deg,rgb(144, 215, 243),#bf99d8 );
     }
 
     section#login{
@@ -26,7 +26,7 @@
         border-top-right-radius: 0px;
         border-bottom-left-radius: 19px;
 
-   }
+    }
 
     section#login{
     
@@ -41,43 +41,17 @@
         width: 75%;
     }
 
-#form > h1 {
-}
+    div.campo  input{
+        width: 93%;
+        margin-left: 7%;
+    }
 
-#form > p{
-}
-
-div.campo{
-
-}
-
-div.campo  input{
-    width: 93%;
-    margin-left: 7%;
-}
-
-div.campo  input:focus{
-}
-
-span{
-    width: 30px;
-    height: 30px;
-    font-size: 30px;
-    position: absolute;
-    left: 1%;
-    bottom: 2%;
-}
-
-input[type="submit"]{
-}
-
-input[type="submit"]:hover{
-}
-
-a{
-}
-
-a:hover{
-}
-
+    span{
+        width: 30px;
+        height: 30px;
+        font-size: 30px;
+        position: absolute;
+        left: 1%;
+        bottom: 2%;
+    }
 }
