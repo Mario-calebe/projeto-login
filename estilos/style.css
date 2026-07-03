@@ -132,3 +132,16 @@ a:hover{
 ::placeholder{
     color: #5f2c82;
 }
+
+#mail{
+    position: relative;
+}
+
+#mail > span{
+    color: #5f2c82;
+    position: absolute;
+    top: 38%;
+    left: 74%;
+    font-size: 15px;
+}
+
