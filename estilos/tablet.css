@@ -41,7 +41,7 @@
         margin-left: 7%;
     }
 
-    span{
+    div > span{
         width: 30px;
         height: 30px;
         font-size: 30px;

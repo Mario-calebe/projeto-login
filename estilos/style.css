@@ -79,20 +79,19 @@ div.campo  input{
     padding: 10px;
     border-radius: 10px;
     border: none;
-    margin-left: 30px;
 }
 
 div.campo  input:focus{
     background-color: white;
 }
 
-span{
-    position: absolute;
-    left: 2%;
-    bottom: 20%;
+div > span{
     padding: 1px;
     text-align: center;
     color: white;
+    width: 27px;
+    height: 38px;
+    vertical-align: middle;
 }
 
 input[type="submit"]{
@@ -109,6 +108,20 @@ input[type="submit"]{
 input[type="submit"]:hover{
     cursor: pointer;
     background-color: #5f2c82;
+}
+
+#mail{
+    position: relative;
+}
+
+a > span{
+    color: #5f2c82;
+    font-size: 0.8em;
+}
+
+#size{
+    font-size: 14px;
+    vertical-align: bottom;
 }
 
 a{
@@ -133,15 +146,4 @@ a:hover{
     color: #5f2c82;
 }
 
-#mail{
-    position: relative;
-}
-
-#mail > span{
-    color: #5f2c82;
-    position: absolute;
-    top: 38%;
-    left: 74%;
-    font-size: 15px;
-}
 
