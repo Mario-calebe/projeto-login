@@ -31,11 +31,19 @@
                     <input type="submit" value="Entrar">
                     <div id="mail">
                         
-                        <a href="#">Esqueci a senha <span id="size" class="material-symbols-outlined">mail</span></a>
+                        <a href="#" id="password" >Esqueci a senha <span id="size" class="material-symbols-outlined">mail</span></a>
                     </div>
                 </form>
             </div>
         </section>
     </main>
 </body>
+
+<script>
+    var sen = window.document.getElementById('password')
+    sen.addEventListener('click', cliquei)
+    function cliquei() {
+        window.alert('Função temporariamente Desativada')
+    }
+</script>
 </html>
